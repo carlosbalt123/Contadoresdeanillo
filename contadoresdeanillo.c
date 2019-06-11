@@ -1,8 +1,8 @@
-#include <Timer.h>
-#include  < 18F4620.h >
-# include  < stdio.h >
-# include  < stdlib.h >
+#include<18F4620.h>
+# include<stdio.h>
+# include<stdlib.h>
 #fuses XT, NOMCLR
+#USE DELAY (clock = 16000000 )
 int contador1=0;
 int contador2=0;
 int contador3=0;
